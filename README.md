@@ -39,7 +39,11 @@ Built for modern data analysts and business leaders who demand the power of Tabl
 * **Anomaly Detection:** Flag outliers dynamically using Isolation Forests, complete with visual anomaly share distributions.
 * **ARIMA Forecasting:** Perform 30-day temporal forecasts on datetime-indexed target metrics automatically.
 
-### 5. Infinite Slicing & self-contained HTML Export
+### 5. Conversational AI & AutoML Suite
+* **PandasAI Integration:** Natural language query interface allowing you to chat directly with your dataset. Includes a self-contained, offline fallback parser to calculate aggregations, filtering, and metrics instantly without requiring external API keys.
+* **AutoML Workbench:** Automated modeling sandbox that trains multiple regression algorithms (Linear Regression, Random Forest, Gradient Boosting, Ridge, and Lasso) concurrently, scores them against $R^2$, MAE, and RMSE, and displays a beautiful comparative leaderboard.
+
+### 6. Infinite Slicing & self-contained HTML Export
 * **Dynamic Sidebar Filters:** Refined options adapt dynamically based on unique value counts, dates, and ranges.
 * **Standalone Dashboard Export:** Export the entire filtered state and all active Plotly charts as a single, beautiful, styled, interactive, self-contained HTML file to share with clients or stakeholders.
 
@@ -52,7 +56,7 @@ Built for modern data analysts and business leaders who demand the power of Tabl
 | **Licensing Cost** | 💸 High annual per-user fees | 🟢 100% Free & Open-Source |
 | **Data Rows Limit** | ⚠️ Strict limits or degraded performance | ⚡ Python-backed (handles millions of rows) |
 | **Data Privacy** | ☁️ Cloud hosting required | 🔒 100% Local / Self-Hosted privacy |
-| **Predictive Science** | 🛠️ complex custom integrations | 🤖 Out-of-the-box ML (Regression, Clustering, ARIMA) |
+| **Predictive Science** | 🛠️ complex custom integrations | 🤖 Out-of-the-box ML & AutoML comparisons |
 | **Extensibility** | 🔒 Proprietary script lock-in | 🐍 Fully open Python ecosystem |
 
 ---
@@ -77,6 +81,7 @@ DataLens Pro 3.0 has been crafted with modern UI design principles in mind:
    * **Auto Graphs Gallery:** Toggle rendering to browse over 50 automated visual diagrams.
    * **ML Insights:** Spin up regressions, forest importances, K-Means clustering, or ARIMA forecasts on-demand.
    * **Statistical Analysis:** View descriptive tables, QQ plotting, and ANOVA charts.
+   * **More Stats:** Ask natural language queries via PandasAI and run the automated ML model sandbox.
 4. **Download HTML Report:** Export your fully styled interactive analytics state to share.
 
 ---
